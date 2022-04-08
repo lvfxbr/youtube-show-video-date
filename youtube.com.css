@@ -1,0 +1,29 @@
+.ysvd-badge {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    white-space: nowrap;
+    width: auto;
+    height: 33px;
+    background: #222;
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: 0.5s;
+    z-index: 1000;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px,
+        rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+}
+
+.ysvd-badge:hover {
+    opacity: 0.2;
+}
+
+.ysvd-badge:before {
+    content: "\23f1";
+    margin-right: 6px;
+    display: inline-block;
+    transform: translateY(-1px);
+}
